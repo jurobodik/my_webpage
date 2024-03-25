@@ -13,7 +13,7 @@
 
 <title>about.knit</title>
 
-<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -270,6 +270,34 @@ $(document).ready(function () {
 
 <p><font size="12">Publications and Preprints</font></p>
 <ol style="list-style-type: decimal">
+<li><p>J. Bodik (2024, preprint) <br> <a
+href="https://arxiv.org/abs/2403.11003">Extreme Treatment Effect:
+Extrapolating Causal Effects Into Extreme Treatment Domain</a>
+<button id="toggleButton6" class="custom-button">▶
+<strong>Abstract</strong>: The potential outcomes framework serves as a
+fundamental…</button></p>
+<div id="longText6" style="display: none;">
+<p><strong>Abstract</strong>: The potential outcomes framework serves as
+a fundamental tool for quantifying the causal effects. When the
+treatment variable (exposure) is continuous, one is typically interested
+in the estimation of the effect curve (also called the average
+dose-response function), denoted as mu(t). In this work, we explore the
+``extreme causal effect,’’ where our focus lies in determining the
+impact of an extreme level of treatment, potentially beyond the range of
+observed values–that is, estimating mu(t) for very large t. Our
+framework is grounded in the field of statistics known as extreme value
+theory. We establish the foundation for our approach, outlining key
+assumptions that enable the estimation of the extremal causal effect.
+Additionally, we present a novel and consistent estimation procedure
+that utilizes extreme value theory in order to potentially reduce the
+dimension of the confounders to at most 3. In practical applications,
+our framework proves valuable when assessing the effects of scenarios
+such as drug overdoses, extreme river discharges, or extremely high
+temperatures on a variable of interest</p>
+</div>
+<p><a
+href="https://github.com/jurobodik/Extremal-Treatment-Effect.git">[code]</a>
+<br></p></li>
 <li><p>J. Bodik and <a
 href="https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/">V.
 Chavez-Demoulin</a> (2023, preprint) <br> <a
@@ -594,7 +622,7 @@ initialization; Convergence criteria; Loss functions; Optimizers.
       toggleButton6.textContent = "Show Less";
     } else {
       longText6.style.display = "none";   // Hide the text
-      toggleButton6.textContent = "Abstract: ";
+      toggleButton6.textContent = "Abstract: The potential outcomes framework serves as a fundamental...";
     }
   });
 </script>

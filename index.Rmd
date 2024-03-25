@@ -32,10 +32,9 @@ I was born in Slovakia and did my bachelor's and master's in pure mathematics at
 </div>
 
 
+
 # Latest news
-- **I am currently looking for an internship at a research group working on causality. If you know about something please let me know.** 
+- *I am planning on spending the next semester in Berkeley in California. If you have some recommendations let me know!* 
 
-- New paper [Structural restrictions in local causal discovery: identifying direct causes of a target variable](https://arxiv.org/abs/2307.16048) is available online!  
-
-
+- New paper about [Extreme Treatment Effect: Extrapolating Causal Effects Into Extreme Treatment Domain](https://arxiv.org/abs/2403.11003) is available on arXiv!  
 

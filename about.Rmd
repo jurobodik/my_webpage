@@ -7,21 +7,15 @@ output:
 
 <font size="12">Publications and Preprints</font>
 
-
-
-1. J. Bodik  (2024, preprint)
+1.  J. Bodik and [O. Pasche](https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/)  (2024, preprint)
 <br>
-[Extreme Treatment Effect: Extrapolating Causal Effects Into Extreme Treatment Domain](https://arxiv.org/abs/2403.11003)
-<button id="toggleButton6" class="custom-button">&#9654; **Abstract**:  The potential outcomes framework serves as a fundamental...</button>
-<div id="longText6" style="display: none;">
-**Abstract**: The potential outcomes framework serves as a fundamental tool for quantifying the causal effects. When the treatment variable (exposure) is continuous, one is typically interested in the estimation of the effect curve (also called the average dose-response function), denoted as mu(t). In this work, we explore the ``extreme causal effect,'' where our focus lies in determining the impact of an extreme level of treatment, potentially beyond the range of observed values--that is, estimating mu(t) for very large t. Our framework is grounded in the field of statistics known as extreme value theory. We establish the foundation for our approach, outlining key assumptions that enable the estimation of the extremal causal effect. Additionally, we present a novel and consistent estimation procedure that utilizes extreme value theory in order to potentially reduce the dimension of the confounders to at most 3. In practical applications, our framework proves valuable when assessing the effects of scenarios such as drug overdoses, extreme river discharges, or extremely high temperatures on a variable of interest 
+[Granger causality in extremes](https://arxiv.org/abs/2407.09632) <br>
+<button id="toggleButton7" class="custom-button">&#9654; **Abstract**: We introduce a rigorous mathematical framework for Granger causality...</button>
+<div id="longText7" style="display: none;">
+**Abstract**: We introduce a rigorous mathematical framework for Granger causality in extremes, designed to identify causal links from extreme events in time series. Granger causality plays a pivotal role in uncovering directional relationships among time-varying variables. While this notion gains heightened importance during extreme and highly volatile periods, state-of-the-art methods primarily focus on causality within the body of the distribution, often overlooking causal mechanisms that manifest only during extreme events. Our framework is designed to infer causality mainly from extreme events by leveraging the causal tail coefficient. We establish equivalences between causality in extremes and other causal concepts, including (classical) Granger causality, Sims causality, and structural causality. We prove other key properties of Granger causality in extremes and show that the framework is especially helpful under the presence of hidden confounders. We also propose a novel inference method for detecting the presence of Granger causality in extremes from data. Our method is model-free, can handle non-linear and high-dimensional time series, outperforms current state-of-the-art methods in all considered setups, both in performance and speed, and was found to uncover coherent effects when applied to financial and extreme weather observations.
 </div>
-[[code]](https://github.com/jurobodik/Extremal-Treatment-Effect.git)
+[[code]](https://github.com/jurobodik/Granger-causality-in-extremes)
 <br>
-
-
-
-
 
 
 1.  J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2023, preprint)
@@ -44,6 +38,17 @@ output:
 It has been shown that the causal graph is identifiable under different models, such as linear non-Gaussian, post-nonlinear, or quadratic variance functional models. We introduce a new class of models called the Conditional Parametric Causal Models (CPCM), where the cause affects the effect in some of the characteristics of interest. We use sufficient statistics to show the identifiability of the CPCM models in the exponential family of conditional distributions. We also propose an algorithm for estimating the causal structure from a random sample under CPCM. Its empirical properties are studied for various data sets, including an application on the expenditure behavior of residents of the Philippines.
 </div>
 [[code]](https://github.com/jurobodik/Causal_CPCM)
+<br>
+
+
+1.  J. Bodik  (2024, Mathematics)
+<br>
+[Extreme Treatment Effect: Extrapolating Causal Effects Into Extreme Treatment Domain](https://www.mdpi.com/2227-7390/12/10/1556) 
+<button id="toggleButton6" class="custom-button">&#9654; **Abstract**: The potential outcomes framework serves as a fundamental...</button>
+<div id="longText6" style="display: none;">
+**Abstract**: The potential outcomes framework serves as a fundamental tool for quantifying the causal effects. When the treatment variable (exposure) is continuous, one is typically interested in the estimation of the effect curve (also called the average dose-response function), denoted as mu(t). In this work, we explore the ``extreme causal effect,’’ where our focus lies in determining the impact of an extreme level of treatment, potentially beyond the range of observed values–that is, estimating mu(t) for very large t. Our framework is grounded in the field of statistics known as extreme value theory. We establish the foundation for our approach, outlining key assumptions that enable the estimation of the extremal causal effect. Additionally, we present a novel and consistent estimation procedure that utilizes extreme value theory in order to potentially reduce the dimension of the confounders to at most 3. In practical applications, our framework proves valuable when assessing the effects of scenarios such as drug overdoses, extreme river discharges, or extremely high temperatures on a variable of interest
+</div>
+[[code]](https://github.com/jurobodik/Extreme_treatment_effect)
 <br>
 
 1. J. Bodik, [Z. Pawlas](http://www.karlin.mff.cuni.cz/~pawlas/), [M. Paluš](http://www.cs.cas.cz/mp/) (2023, Extremes)
@@ -78,9 +83,13 @@ It has been shown that the causal graph is identifiable under different models, 
 
 <font size="12">Selected conferences and talks</font>
 
-- [CMStatistics](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2023/viewSubmission.php?in=1622&token=5n52944n1q1s4ors43p00q01637511s5) (Presented in HTW **Berlin**, Germany, 15.12.2023-19.12.2023) 
+- [UAI2024](https://www.auai.org/uai2024/) (Invited speaker at [UAI2024 Workshop on Causal inference in time series](https://sites.google.com/view/ci4ts2024/invited-speakers?authuser=0) in  **Barcelona**, Spain, 15.7.2024-19.7.2024) 
 
-- [CUSO PhD day](https://statistique.cuso.ch/?id=2688&tx_displaycontroller[showUid]=6526) (Presented in UNIGE **Geneva**, Switzerland, 7.6.2023) 
+- [EGU24](https://meetingorganizer.copernicus.org/EGU24/session/50529&ip) (Poster at **Vienna**, Austria, 14.4.2024-19.4.2024) 
+
+- [Causality in extremes workshop](https://sites.google.com/view/causality-extremes/main) (Poster at UNIGE **Geneva**, Switzerland, 12.2.2024-14.2.2024) 
+
+- [CMStatistics](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2023/viewSubmission.php?in=1622&token=5n52944n1q1s4ors43p00q01637511s5) (Presented in HTW **Berlin**, Germany, 15.12.2023-19.12.2023) 
 
 - [EUROCIM: European causal inference meeting](https://www.eurocim.org/) (Presented in University of **Oslo**, Norway, 18.4.2023-22.4.2023) 
 
@@ -222,8 +231,6 @@ Keywords: Mathematical statistics; Causal inference; Statistical inference; Prob
 </script>
 
 
-
-
 <script>
   var toggleButton7 = document.getElementById("toggleButton7");
   var longText7 = document.getElementById("longText7");
@@ -234,7 +241,7 @@ Keywords: Mathematical statistics; Causal inference; Statistical inference; Prob
       toggleButton7.textContent = "Show Less";
     } else {
       longText7.style.display = "none";   // Hide the text
-      toggleButton7.textContent = "Abstract: ";
+      toggleButton7.textContent = "Abstract: We introduce a rigorous mathematical framework for Granger causality...";
     }
   });
 </script>
@@ -286,5 +293,6 @@ Keywords: Mathematical statistics; Causal inference; Statistical inference; Prob
     }
   });
 </script>
+
 
 

@@ -13,7 +13,7 @@
 
 <title>about.knit</title>
 
-<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -270,33 +270,37 @@ $(document).ready(function () {
 
 <p><font size="12">Publications and Preprints</font></p>
 <ol style="list-style-type: decimal">
-<li><p>J. Bodik (2024, preprint) <br> <a
-href="https://arxiv.org/abs/2403.11003">Extreme Treatment Effect:
-Extrapolating Causal Effects Into Extreme Treatment Domain</a>
-<button id="toggleButton6" class="custom-button">▶
-<strong>Abstract</strong>: The potential outcomes framework serves as a
-fundamental…</button></p>
-<div id="longText6" style="display: none;">
-<p><strong>Abstract</strong>: The potential outcomes framework serves as
-a fundamental tool for quantifying the causal effects. When the
-treatment variable (exposure) is continuous, one is typically interested
-in the estimation of the effect curve (also called the average
-dose-response function), denoted as mu(t). In this work, we explore the
-``extreme causal effect,’’ where our focus lies in determining the
-impact of an extreme level of treatment, potentially beyond the range of
-observed values–that is, estimating mu(t) for very large t. Our
-framework is grounded in the field of statistics known as extreme value
-theory. We establish the foundation for our approach, outlining key
-assumptions that enable the estimation of the extremal causal effect.
-Additionally, we present a novel and consistent estimation procedure
-that utilizes extreme value theory in order to potentially reduce the
-dimension of the confounders to at most 3. In practical applications,
-our framework proves valuable when assessing the effects of scenarios
-such as drug overdoses, extreme river discharges, or extremely high
-temperatures on a variable of interest</p>
+<li><p>J. Bodik and <a
+href="https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/">O.
+Pasche</a> (2024, preprint) <br> <a
+href="https://arxiv.org/abs/2407.09632">Granger causality in
+extremes</a> <br> <button id="toggleButton7" class="custom-button">▶
+<strong>Abstract</strong>: We introduce a rigorous mathematical
+framework for Granger causality…</button></p>
+<div id="longText7" style="display: none;">
+<p><strong>Abstract</strong>: We introduce a rigorous mathematical
+framework for Granger causality in extremes, designed to identify causal
+links from extreme events in time series. Granger causality plays a
+pivotal role in uncovering directional relationships among time-varying
+variables. While this notion gains heightened importance during extreme
+and highly volatile periods, state-of-the-art methods primarily focus on
+causality within the body of the distribution, often overlooking causal
+mechanisms that manifest only during extreme events. Our framework is
+designed to infer causality mainly from extreme events by leveraging the
+causal tail coefficient. We establish equivalences between causality in
+extremes and other causal concepts, including (classical) Granger
+causality, Sims causality, and structural causality. We prove other key
+properties of Granger causality in extremes and show that the framework
+is especially helpful under the presence of hidden confounders. We also
+propose a novel inference method for detecting the presence of Granger
+causality in extremes from data. Our method is model-free, can handle
+non-linear and high-dimensional time series, outperforms current
+state-of-the-art methods in all considered setups, both in performance
+and speed, and was found to uncover coherent effects when applied to
+financial and extreme weather observations.</p>
 </div>
 <p><a
-href="https://github.com/jurobodik/Extremal-Treatment-Effect.git">[code]</a>
+href="https://github.com/jurobodik/Granger-causality-in-extremes">[code]</a>
 <br></p></li>
 <li><p>J. Bodik and <a
 href="https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/">V.
@@ -359,6 +363,34 @@ properties are studied for various data sets, including an application
 on the expenditure behavior of residents of the Philippines.</p>
 </div>
 <p><a href="https://github.com/jurobodik/Causal_CPCM">[code]</a>
+<br></p></li>
+<li><p>J. Bodik (2024, Mathematics) <br> <a
+href="https://www.mdpi.com/2227-7390/12/10/1556">Extreme Treatment
+Effect: Extrapolating Causal Effects Into Extreme Treatment Domain</a>
+<button id="toggleButton6" class="custom-button">▶
+<strong>Abstract</strong>: The potential outcomes framework serves as a
+fundamental…</button></p>
+<div id="longText6" style="display: none;">
+<p><strong>Abstract</strong>: The potential outcomes framework serves as
+a fundamental tool for quantifying the causal effects. When the
+treatment variable (exposure) is continuous, one is typically interested
+in the estimation of the effect curve (also called the average
+dose-response function), denoted as mu(t). In this work, we explore the
+``extreme causal effect,’’ where our focus lies in determining the
+impact of an extreme level of treatment, potentially beyond the range of
+observed values–that is, estimating mu(t) for very large t. Our
+framework is grounded in the field of statistics known as extreme value
+theory. We establish the foundation for our approach, outlining key
+assumptions that enable the estimation of the extremal causal effect.
+Additionally, we present a novel and consistent estimation procedure
+that utilizes extreme value theory in order to potentially reduce the
+dimension of the confounders to at most 3. In practical applications,
+our framework proves valuable when assessing the effects of scenarios
+such as drug overdoses, extreme river discharges, or extremely high
+temperatures on a variable of interest</p>
+</div>
+<p><a
+href="https://github.com/jurobodik/Extreme_treatment_effect">[code]</a>
 <br></p></li>
 <li><p>J. Bodik, <a href="http://www.karlin.mff.cuni.cz/~pawlas/">Z.
 Pawlas</a>, <a href="http://www.cs.cas.cz/mp/">M. Paluš</a> (2023,
@@ -453,14 +485,23 @@ of electromagnetic storms.</p>
 </ol>
 <p><font size="12">Selected conferences and talks</font></p>
 <ul>
+<li><p><a href="https://www.auai.org/uai2024/">UAI2024</a> (Invited
+speaker at <a
+href="https://sites.google.com/view/ci4ts2024/invited-speakers?authuser=0">UAI2024
+Workshop on Causal inference in time series</a> in
+<strong>Barcelona</strong>, Spain, 15.7.2024-19.7.2024)</p></li>
+<li><p><a
+href="https://meetingorganizer.copernicus.org/EGU24/session/50529&amp;ip">EGU24</a>
+(Poster at <strong>Vienna</strong>, Austria,
+14.4.2024-19.4.2024)</p></li>
+<li><p><a
+href="https://sites.google.com/view/causality-extremes/main">Causality
+in extremes workshop</a> (Poster at UNIGE <strong>Geneva</strong>,
+Switzerland, 12.2.2024-14.2.2024)</p></li>
 <li><p><a
 href="http://www.cmstatistics.org/RegistrationsV2/CMStatistics2023/viewSubmission.php?in=1622&amp;token=5n52944n1q1s4ors43p00q01637511s5">CMStatistics</a>
 (Presented in HTW <strong>Berlin</strong>, Germany,
 15.12.2023-19.12.2023)</p></li>
-<li><p><a
-href="https://statistique.cuso.ch/?id=2688&amp;tx_displaycontroller%5BshowUid%5D=6526">CUSO
-PhD day</a> (Presented in UNIGE <strong>Geneva</strong>, Switzerland,
-7.6.2023)</p></li>
 <li><p><a href="https://www.eurocim.org/">EUROCIM: European causal
 inference meeting</a> (Presented in University of <strong>Oslo</strong>,
 Norway, 18.4.2023-22.4.2023)</p></li>
@@ -636,7 +677,7 @@ initialization; Convergence criteria; Loss functions; Optimizers.
       toggleButton7.textContent = "Show Less";
     } else {
       longText7.style.display = "none";   // Hide the text
-      toggleButton7.textContent = "Abstract: ";
+      toggleButton7.textContent = "Abstract: We introduce a rigorous mathematical framework for Granger causality...";
     }
   });
 </script>

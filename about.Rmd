@@ -83,13 +83,19 @@ It has been shown that the causal graph is identifiable under different models, 
 
 <font size="12">Selected conferences and talks</font>
 
+- [Data driven seminar](https://datascience.stanford.edu/datadrivenseminar) (Speaker at a weekly Data driven seminar at  **Stanford**, California, 7.11.2024)
+
+- [Casual causal seminar, PhD students seminar and Bin Yu group seminar](https://causal.stat.berkeley.edu/) (Speaker at a weekly seminars in  **UC Berkeley**, California, autumn 2024)
+
+- [Causal science center conference 2024](https://datascience.stanford.edu/causal/2024-causal-science-center-conference) (Presented + poster at  **Stanford**, California, 11.10.2024) 
+
 - [UAI2024](https://www.auai.org/uai2024/) (Invited speaker at [UAI2024 Workshop on Causal inference in time series](https://sites.google.com/view/ci4ts2024/invited-speakers?authuser=0) in  **Barcelona**, Spain, 15.7.2024-19.7.2024) 
 
-- [EGU24](https://meetingorganizer.copernicus.org/EGU24/session/50529&ip) (Poster at **Vienna**, Austria, 14.4.2024-19.4.2024) 
+- [EGU24](https://meetingorganizer.copernicus.org/EGU24/session/50529&ip) (Poster in **Vienna**, Austria, 14.4.2024-19.4.2024) 
 
 - [Causality in extremes workshop](https://sites.google.com/view/causality-extremes/main) (Poster at UNIGE **Geneva**, Switzerland, 12.2.2024-14.2.2024) 
 
-- [CMStatistics](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2023/viewSubmission.php?in=1622&token=5n52944n1q1s4ors43p00q01637511s5) (Presented in HTW **Berlin**, Germany, 15.12.2023-19.12.2023) 
+- [CMStatistics](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2023/viewSubmission.php?in=1622&token=5n52944n1q1s4ors43p00q01637511s5) (Presented at HTW **Berlin**, Germany, 15.12.2023-19.12.2023) 
 
 - [EUROCIM: European causal inference meeting](https://www.eurocim.org/) (Presented in University of **Oslo**, Norway, 18.4.2023-22.4.2023) 
 

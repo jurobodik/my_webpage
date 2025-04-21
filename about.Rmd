@@ -7,7 +7,7 @@ output:
 
 <font size="12">Publications and Preprints</font>
 
-1.  J. Bodik and [O. Pasche](https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/)  (2024, preprint)
+1.  J. Bodik and [O. Pasche](https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/)  (2024, preprint, submitted to JASA)
 <br>
 [Granger causality in extremes](https://arxiv.org/abs/2407.09632) <br>
 <button id="toggleButton7" class="custom-button">&#9654; **Abstract**: We introduce a rigorous mathematical framework for Granger causality...</button>
@@ -18,7 +18,7 @@ output:
 <br>
 
 
-1.  J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2023, preprint)
+1.  J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2023, preprint, in review at Biometrika)
 <br>
 [Structural restrictions in local causal discovery: identifying direct causes of a target variable](https://arxiv.org/abs/2307.16048) 
 <button id="toggleButton5" class="custom-button">&#9654; **Abstract**: We consider the problem of learning a set of direct causes of a target...</button>
@@ -28,7 +28,7 @@ output:
 [[code]](https://github.com/jurobodik/Structural-restrictions-in-local-causal-discovery)
 <br>
 
-1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2023, preprint)
+1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2023, preprint, in review at JMLR)
 <br>
 [Identifiability of causal graphs under nonadditive conditionally parametric causal models](https://arxiv.org/abs/2303.15376)
 <br>

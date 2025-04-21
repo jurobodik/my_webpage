@@ -3,7 +3,19 @@ title: "Teaching"
 output: html_document
 ---
 
-Past: teaching assistent at HEC UNIL
+I have worked as a teaching assistant at HEC Lausanne (UNIL), supporting several graduate-level courses across multiple semesters:
+
+-Spring 2025: [Forecasting II](https://hecnet.unil.ch/indexMRN.php?QS=/syllabus/descriptif/2496)
+
+-Spring 2025: [Forecasting I](https://hecnet.unil.ch/indexMRN.php?QS=/syllabus/descriptif/2496)
+
+-Fall 2024: [Risk Analytics](https://www.unil.ch/hec/home/menuinst/etudes/cours.html?url=/web/syllabus/permalink/M0094)
+
+-Spring 2024: [Forecasting II](https://hecnet.unil.ch/indexMRN.php?QS=/syllabus/descriptif/2496)
+
+-Spring 2024: [Forecasting I](https://hecnet.unil.ch/indexMRN.php?QS=/syllabus/descriptif/2496)
+
+-Fall 2023: [Optimization](https://www.unil.ch/hec/home/menuinst/etudes/cours.html?url=/web/syllabus/permalink/M0094)
 
 -Spring 2023: [Forecasting II](https://hecnet.unil.ch/indexMRN.php?QS=/syllabus/descriptif/2496)
 

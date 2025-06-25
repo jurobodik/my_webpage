@@ -18,7 +18,7 @@ output:
 <br>
 
 
-1.  J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2023, preprint, in review at Biometrika)
+1.  J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2025, Biometrika)
 <br>
 [Structural restrictions in local causal discovery: identifying direct causes of a target variable](https://arxiv.org/abs/2307.16048) 
 <button id="toggleButton5" class="custom-button">&#9654; **Abstract**: We consider the problem of learning a set of direct causes of a target...</button>

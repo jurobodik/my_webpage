@@ -33,7 +33,6 @@ I was born in Slovakia and did my bachelor's and master's in pure mathematics at
 
 
 # Latest news
-- Currently looking for an internship. Let me know if you have any suggestions or opportunities!
-
-
+- Our paper was recently published in [Biometrika](https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaf042/8157876), one of the top 5 journals in statistics.
+- In August and September, I’ll be doing a research visit at the University of Osaka, hosted by [Shohei Shimizu](https://www.shimizulab.org/lab). If you have recommendations for Japan or would like to meet up while I’m there, feel free to reach out!
 

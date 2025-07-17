@@ -270,9 +270,78 @@ $(document).ready(function () {
 
 <p><font size="12">Publications and Preprints</font></p>
 <ol style="list-style-type: decimal">
+<li><p>J. Bodik, <a href="https://imyaxuan.github.io/">Yaxuan Huang</a>
+and <a href="https://www.stat.berkeley.edu/~yugroup/">Bin Yu</a> (2025,
+preprint, submitted to JRSSb) <br> <a
+href="https://arxiv.org/abs/2507.?????">Cross-World Assumption and
+Refining Prediction Intervals for Individual Treatment Effects</a> <br>
+<button id="toggleButton9" class="custom-button">▶
+<strong>Abstract</strong>: While average treatment effects (ATE) and
+conditional average…</button></p>
+<div id="longText9" style="display: none;">
+<p><strong>Abstract</strong>: While average treatment effects (ATE) and
+conditional average treatment effects (CATE) provide valuable
+population- and subgroup-level summaries, they fail to capture
+uncertainty at the individual level. For high-stakes decision-making,
+individual treatment effect (ITE) estimates must be accompanied by valid
+prediction intervals that reflect heterogeneity and unit-specific
+uncertainty. However, the fundamental unidentifiability of ITEs limits
+the ability to derive precise and reliable individual-level uncertainty
+estimates. To address this challenge, we investigate the role of a
+cross-world correlation parameter, <span class="math inline">\(\rho(x) =
+\text{cor}\big(Y(1), Y(0) \mid X = x\big)\)</span>, which describes the
+dependence between potential outcomes, given covariates, in the
+Neyman-Rubin super-population model with i.i.d. units. Although <span
+class="math inline">\(\rho\)</span> is fundamentally unidentifiable, we
+argue that in most real-world applications, it is possible to impose
+reasonable and interpretable bounds informed by domain-expert knowledge.
+Given <span class="math inline">\(\rho\)</span>, we design prediction
+intervals for ITE, achieving more stable and accurate coverage with
+substantially shorter widths; often less than 1/3 of those from
+competing methods. The resulting intervals satisfy coverage guarantees
+<span class="math inline">\(P\big(Y(1) - Y(0) \in C_{ITE}(X)\big) \geq 1
+- \alpha\)</span> and are asymptotically optimal under Gaussian
+assumptions. We provide strong theoretical and empirical arguments that
+cross-world assumptions can make individual uncertainty quantification
+both practically informative and statistically valid.</p>
+</div>
+<p><a
+href="https://github.com/jurobodik/ITE_prediction_cross_world.git">[code]</a>
+<br></p></li>
+<li><p><a href="https://iliaazizi.com/">I. Azizi<sup>✶</sup></a>, J.
+Bodik<sup>✶</sup>, <a
+href="https://scholar.google.com/citations?user=mKqte6AAAAAJ&amp;hl=de">J.
+Heiss<sup>✶</sup></a>, and <a
+href="https://www.stat.berkeley.edu/~yugroup/">Bin Yu</a> (2025,
+preprint, submitted to NeurIPS)<br />
+<em><sup>✶</sup>Equal contribution</em><br />
+<a href="https://arxiv.org/abs/2507.08150">CLEAR: Calibrated Learning
+for Epistemic and Aleatoric Risk</a> <br>
+<button id="toggleButton8" class="custom-button">▶
+<strong>Abstract</strong>: Accurate uncertainty quantification is
+critical for reliable…</button></p>
+<div id="longText8" style="display: none;">
+<p><strong>Abstract</strong>: Accurate uncertainty quantification is
+critical for reliable predictive modeling, especially in regression
+tasks. Existing methods typically address either aleatoric uncertainty
+from measurement noise or epistemic uncertainty from limited data, but
+not necessarily both in a balanced way. We propose CLEAR, a calibration
+method with two distinct parameters, and , to combine the two
+uncertainty components for improved conditional coverage. CLEAR is
+compatible with any pair of aleatoric and epistemic estimators; we show
+how it can be used with (i) quantile regression for aleatoric
+uncertainty and (ii) ensembles drawn from the
+Predictability-Computability-Stability (PCS) framework for epistemic
+uncertainty. Across 17 diverse real-world datasets, CLEAR achieves an
+average improvement of 28.2% and 17.4% in the interval width compared to
+the two individually calibrated baselines while maintaining nominal
+coverage. This improvement can be particularly evident in scenarios
+dominated by either high epistemic or high aleatoric uncertainty.</p>
+</div>
+<p><a href="https://github.com/Unco3892/clear">[code]</a></p></li>
 <li><p>J. Bodik and <a
 href="https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/">O.
-Pasche</a> (2024, preprint, submitted to JASA) <br> <a
+Pasche</a> (2024, preprint, submitted to JRSSb) <br> <a
 href="https://arxiv.org/abs/2407.09632">Granger causality in
 extremes</a> <br> <button id="toggleButton7" class="custom-button">▶
 <strong>Abstract</strong>: We introduce a rigorous mathematical
@@ -333,7 +402,7 @@ properties are studied for various data sets, including an application
 on the expenditure behavior of residents of the Philippines.</p>
 </div>
 <p><a href="https://github.com/jurobodik/Causal_CPCM">[code]</a>
-<br></p></li>
+<be></p></li>
 <li><p>J. Bodik and <a
 href="https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/">V.
 Chavez-Demoulin</a> (2025, Biometrika) <br> <a
@@ -702,7 +771,7 @@ initialization; Convergence criteria; Loss functions; Optimizers.
       toggleButton8.textContent = "Show Less";
     } else {
       longText8.style.display = "none";   // Hide the text
-      toggleButton8.textContent = "Abstract: ";
+      toggleButton8.textContent = "Abstract: Accurate uncertainty quantification is critical for reliable...";
     }
   });
 </script>
@@ -716,7 +785,7 @@ initialization; Convergence criteria; Loss functions; Optimizers.
       toggleButton9.textContent = "Show Less";
     } else {
       longText9.style.display = "none";   // Hide the text
-      toggleButton9.textContent = "Abstract: ";
+      toggleButton9.textContent = "Abstract: While average treatment effects (ATE) and conditional average...";
     }
   });
 </script>

@@ -23,7 +23,7 @@ output:
 
 My nickname is Juro (pronounced like the money '€'), and I am a Ph.D. student under the supervision of [Prof. Valérie Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) at the [University of Lausanne](https://www.unil.ch/hec/en/home.html), Switzerland. In 2024, I spent half a year as a visiting researcher at [UC Berkeley](https://www.stat.berkeley.edu/~yugroup/index.html), working with [prof. Bin Yu](https://www.stat.berkeley.edu/~yugroup/index.html). I am passionate about mathematical statistics and specialize in the field of causal inference. Through my research and work, I strive to uncover the hidden relationships and causal effects that shape our world.
 
-Currently, my research emphasis lies in [causal inference and causal discovery](https://arxiv.org/abs/2407.09632), focusing on the identifiability of causal relations from observational data. In some of our recent publications, we also combine causal inference with [Extreme value theory](https://en.wikipedia.org/wiki/Extreme_value_theory) and [time series analysis](https://en.wikipedia.org/wiki/Granger_causality). 
+Currently, my research emphasis lies in [causal inference and causal discovery](https://arxiv.org/abs/2407.09632), focusing on the identifiability of causal relations from observational data. In my recent publications, I also explore topics such as [uncertainty quantification](https://en.wikipedia.org/wiki/Uncertainty_quantification),  [extreme value theory](https://en.wikipedia.org/wiki/Extreme_value_theory) and [time series analysis](https://en.wikipedia.org/wiki/Granger_causality). 
 
 I was born in Slovakia and did my bachelor's and master's in pure mathematics at [Charles University](https://www.mff.cuni.cz/en) in Prague, Czech Republic. During this period, I competed and organized several international problem-solving [competitions](https://www.imc-math.org.uk/?year=2020&item=info) and [camps](https://kms.sk/) in mathematics. My favorite hobbies include [ultimate frisbee](https://www.flyhigh.ultimate.ch/) and beach volleyball at the [beach](https://goo.gl/maps/YQZAVj8VvoEqdKDt6) of Geneva lake. Back in Slovakia, I represented the [Slovak national team](https://wfdf.sport/about-wfdf/member-federations/slovakia/) in the youth world championship in ultimate frisbee.
 
@@ -34,5 +34,4 @@ I was born in Slovakia and did my bachelor's and master's in pure mathematics at
 
 # Latest news
 - Our paper was recently published in [Biometrika](https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaf042/8157876), one of the top 5 journals in statistics.
-- In August and September, I’ll be doing a research visit at the University of Osaka in Japan, hosted by [Shohei Shimizu](https://www.shimizulab.org/lab). If you have recommendations for Japan or would like to meet up while I’m there, feel free to reach out!
-
+- In <del>August and September</del> December and January, I’ll be doing a research visit at the University of Osaka in Japan, hosted by [Shohei Shimizu](https://www.shimizulab.org/lab). If you have recommendations for Japan or would like to meet up while I’m there, feel free to reach out!

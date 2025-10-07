@@ -270,8 +270,8 @@ $(document).ready(function () {
 
 <p><font size="12">Publications and Preprints</font></p>
 <ol style="list-style-type: decimal">
-<li><p>J. Bodik, <a href="https://imyaxuan.github.io/">Yaxuan Huang</a>
-and <a href="https://www.stat.berkeley.edu/~yugroup/">Bin Yu</a> (2025,
+<li><p>J. Bodik, <a href="https://imyaxuan.github.io/">Y. Huang</a> and
+<a href="https://www.stat.berkeley.edu/~yugroup/">B. Yu</a> (2025,
 preprint, submitted to JRSSb) <br> <a
 href="https://arxiv.org/abs/2507.12581">Cross-World Assumption and
 Refining Prediction Intervals for Individual Treatment Effects</a> <br>
@@ -308,12 +308,50 @@ both practically informative and statistically valid.</p>
 <p><a
 href="https://github.com/jurobodik/ITE_prediction_cross_world.git">[code]</a>
 <br></p></li>
+<li><p>J. Bodik (2025, preprint, submitted to ICLR) <br> <a
+href="https://arxiv.org/abs/???">Counterfactual prediction under
+cross-world dependence</a> <br>
+<button id="toggleButton9" class="custom-button">▶
+<strong>Abstract</strong>: We study the problem of estimating the
+expected counterfactual outcome for…</button></p>
+<div id="longText9" style="display: none;">
+<p><strong>Abstract</strong>: We study the problem of estimating the
+expected counterfactual outcome for an individual with covariates <span
+class="math inline">\(x\)</span> and observed outcome <span
+class="math inline">\(y\)</span>, defined as <span
+class="math inline">\(\mu(x,y) = \mathbb{E}[Y(1) \mid X = x, Y(0) =
+y]\)</span>, and constructing valid prediction intervals under the
+Neyman–Rubin superpopulation model with i.i.d. units. This quantity is
+generally unidentified without additional assumptions. To link the
+observed and unobserved potential outcomes, we work with a cross-world
+correlation function <span class="math inline">\(\rho(x) =
+\operatorname{cor}(Y(1), Y(0) \mid X = x)\)</span> that quantifies their
+dependence given the covariates. Plausible bounds on <span
+class="math inline">\(\rho(x)\)</span>, often informed by domain
+knowledge, enable a principled approach to this otherwise unidentified
+problem. Given <span class="math inline">\(\rho\)</span>, we develop a
+consistent estimator <span
+class="math inline">\(\hat{\mu}_{\rho}(x,y)\)</span> and prediction
+intervals <span class="math inline">\(C_{\rho}(x,y)\)</span> that
+satisfy <span class="math inline">\(P[Y(1) \in C_{\rho}(X,Y(0))] \geq 1
+- \alpha\)</span> under standard causal assumptions. Almost all existing
+methods correspond to either the case <span class="math inline">\(\rho =
+0\)</span> (ignoring the factual outcome), or <span
+class="math inline">\(\rho = 1\)</span> (constant treatment effects). We
+show that interpolating between these cases via cross-world dependence
+yields estimators that are theoretically optimal under (asymptotic)
+Gaussian assumptions. In practice, this leads to substantial empirical
+improvements across a wide range of scenarios.</p>
+</div>
+<p><a
+href="https://github.com/jurobodik/Counterfactual_prediction.git">[code]</a>
+<br></p></li>
 <li><p><a href="https://iliaazizi.com/">I. Azizi<sup>✶</sup></a>, J.
 Bodik<sup>✶</sup>, <a
 href="https://scholar.google.com/citations?user=mKqte6AAAAAJ&amp;hl=de">J.
 Heiss<sup>✶</sup></a>, and <a
-href="https://www.stat.berkeley.edu/~yugroup/">Bin Yu</a> (2025,
-preprint, submitted to NeurIPS)<br />
+href="https://www.stat.berkeley.edu/~yugroup/">B. Yu</a> (2025,
+preprint, submitted to ICLR)<br />
 <em><sup>✶</sup>Equal contribution</em><br />
 <a href="https://arxiv.org/abs/2507.08150">CLEAR: Calibrated Learning
 for Epistemic and Aleatoric Risk</a> <br>
@@ -341,7 +379,7 @@ dominated by either high epistemic or high aleatoric uncertainty.</p>
 <p><a href="https://github.com/Unco3892/clear">[code]</a></p></li>
 <li><p>J. Bodik and <a
 href="https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/">O.
-Pasche</a> (2024, preprint, submitted to JRSSb) <br> <a
+Pasche</a> (2024, preprint, submitted to Bernoulli) <br> <a
 href="https://arxiv.org/abs/2407.09632">Granger causality in
 extremes</a> <br> <button id="toggleButton7" class="custom-button">▶
 <strong>Abstract</strong>: We introduce a rigorous mathematical
@@ -373,9 +411,9 @@ href="https://github.com/jurobodik/Granger-causality-in-extremes">[code]</a>
 <br></p></li>
 <li><p>J. Bodik and <a
 href="https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/">V.
-Chavez-Demoulin</a> (2023, preprint, in review at JMLR) <br> <a
-href="https://arxiv.org/abs/2303.15376">Identifiability of causal graphs
-under nonadditive conditionally parametric causal models</a> <br>
+Chavez-Demoulin</a> (2023, preprint, 3rd round of review at JMLR) <br>
+<a href="https://arxiv.org/abs/2303.15376">Identifiability of causal
+graphs under nonadditive conditionally parametric causal models</a> <br>
 <button id="toggleButton4" class="custom-button">▶
 <strong>Abstract</strong>: Causal discovery from observational data is a
 very challenging, often impossible…</button></p>
@@ -402,7 +440,8 @@ properties are studied for various data sets, including an application
 on the expenditure behavior of residents of the Philippines.</p>
 </div>
 <p><a href="https://github.com/jurobodik/Causal_CPCM">[code]</a>
-<be></p></li>
+<be></p>
+<hr></li>
 <li><p>J. Bodik and <a
 href="https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/">V.
 Chavez-Demoulin</a> (2025, Biometrika) <br> <a
@@ -492,7 +531,7 @@ href="https://github.com/jurobodik/Causality-in-extremes-of-time-series">[code]<
 <li><p>J. Bodik, <a href="https://lindamhalla.netlify.app/">L.
 Mhalla</a>, <a
 href="https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/">V.
-Chavez-Demoulin</a> (2022, preprint) <br><a
+Chavez-Demoulin</a> (2022 - project permanently on hold) <br><a
 href="https://arxiv.org/abs/2212.09831">Detecting causal covariates for
 extreme dependence structures</a> <br>
 <button id="toggleButton3" class="custom-button">▶
@@ -515,14 +554,10 @@ concentration in the UK. Extreme NO2 levels can cause severe health
 problems, and understanding the behaviour of concurrent severe levels is
 an important question. We focus on revealing causal predictors for the
 dependence between extreme NO2 observations at different sites.</p>
-</div>
-<p><a
-href="https://github.com/jurobodik/Detecting-causal-covariates-for-extreme-dependence-structures">[code]</a>
-<br></p></li>
+</div></li>
 <li><p>J. Bodik, <a href="http://www.karlin.mff.cuni.cz/~pawlas/">Z.
 Pawlas</a>, <a href="http://www.cs.cas.cz/mp/">M. Paluš</a> (2021,
-Master thesis, won a 10000KC prize in a competition for best master
-thesis) <br><a
+Master’s thesis; prize 10,000 Kč for best thesis) <br><a
 href="https://dspace.cuni.cz/handle/20.500.11956/127250">Detection of
 causality in time series using extreme values</a>. <br>
 <button id="toggleButton" class="custom-button">▶
@@ -554,7 +589,7 @@ of electromagnetic storms.</p>
 </ol>
 <p><font size="12">Reviewing</font> <br>
 <a href="https://academic.oup.com/jrsssb">Journal of the Royal
-Statistical Society, Series B (JRSSB)</a>,
+Statistical Society, Series B (JRSSb)</a>,
 <a href="https://www.sciencedirect.com/journal/statistics-and-probability-letters">Statistics
 &amp; Probability Letters</a>,
 <a href="https://www.springer.com/journal/41237">Behaviormetrika</a>,
@@ -562,6 +597,10 @@ Statistical Society, Series B (JRSSB)</a>,
 Statistical Journal</a></span></p>
 <p><font size="12">Selected conferences and talks</font></p>
 <ul>
+<li><p><a href="https://datascience.stanford.edu/datadrivenseminar">CHUV
+BDSC seminar</a> (<em>Invited speaker</em> at a Clinical Data Science
+Group seminar at CHUV University Hospital in <strong>Lausanne</strong>,
+Switzerland, 29.9.2025)</p></li>
 <li><p><a href="https://datascience.stanford.edu/datadrivenseminar">Data
 driven seminar</a> (Speaker at a weekly Data driven seminar at
 <strong>Stanford</strong>, California, 7.11.2024)</p></li>
@@ -573,8 +612,8 @@ weekly seminars in <strong>UC Berkeley</strong>, California, autumn
 href="https://datascience.stanford.edu/causal/2024-causal-science-center-conference">Causal
 science center conference 2024</a> (Presented + poster at
 <strong>Stanford</strong>, California, 11.10.2024)</p></li>
-<li><p><a href="https://www.auai.org/uai2024/">UAI2024</a> (Invited
-speaker at <a
+<li><p><a href="https://www.auai.org/uai2024/">UAI2024</a> (<em>Invited
+speaker</em> at <a
 href="https://sites.google.com/view/ci4ts2024/invited-speakers?authuser=0">UAI2024
 Workshop on Causal inference in time series</a> in
 <strong>Barcelona</strong>, Spain, 15.7.2024-19.7.2024)</p></li>

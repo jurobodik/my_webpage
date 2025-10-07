@@ -7,8 +7,7 @@ output:
 
 <font size="12">Publications and Preprints</font>
 
-
-1.  J. Bodik, [Yaxuan Huang](https://imyaxuan.github.io/) and [Bin Yu](https://www.stat.berkeley.edu/~yugroup/)  (2025, preprint, submitted to JRSSb)
+1.  J. Bodik, [Y. Huang](https://imyaxuan.github.io/) and [B. Yu](https://www.stat.berkeley.edu/~yugroup/)  (2025, preprint, submitted to JRSSb)
 <br>
 [Cross-World Assumption and Refining Prediction Intervals for Individual Treatment Effects](https://arxiv.org/abs/2507.12581) <br>
 <button id="toggleButton9" class="custom-button">&#9654; **Abstract**: While average treatment effects (ATE) and conditional average...</button>
@@ -19,8 +18,19 @@ output:
 <br>
 
 
+1.  J. Bodik (2025, preprint, submitted to ICLR)
+<br>
+[Counterfactual prediction under cross-world dependence](https://arxiv.org/abs/???) <br>
+<button id="toggleButton9" class="custom-button">&#9654; **Abstract**: We study the problem of estimating the expected counterfactual outcome for...</button>
+<div id="longText9" style="display: none;">
+**Abstract**: We study the problem of estimating the expected counterfactual outcome for an individual with covariates $x$ and observed outcome $y$, defined as   $\mu(x,y) = \mathbb{E}[Y(1) \mid X = x, Y(0) = y]$, and constructing valid prediction intervals under the Neyman–Rubin superpopulation model with i.i.d. units. This quantity is generally unidentified without additional assumptions. To link the observed and unobserved potential outcomes, we work with a cross-world correlation function $\rho(x) = \operatorname{cor}(Y(1), Y(0) \mid X = x)$ that quantifies their dependence given the covariates. Plausible bounds on $\rho(x)$, often informed by domain knowledge, enable a principled approach to this otherwise unidentified problem. Given $\rho$, we develop a consistent estimator $\hat{\mu}_{\rho}(x,y)$ and prediction intervals $C_{\rho}(x,y)$ that satisfy $P[Y(1) \in C_{\rho}(X,Y(0))] \geq 1 - \alpha$ under standard causal assumptions. Almost all existing methods correspond to either the case $\rho = 0$ (ignoring the factual outcome), or $\rho = 1$ (constant treatment effects). We show that interpolating between these cases via cross-world dependence yields estimators that are theoretically optimal under (asymptotic) Gaussian assumptions. In practice, this leads to substantial empirical improvements across a wide range of scenarios.
+</div>
+[[code]](https://github.com/jurobodik/Counterfactual_prediction.git)
+<br>
 
-1. [I. Azizi<sup>✶</sup>](https://iliaazizi.com/), J. Bodik<sup>✶</sup>, [J. Heiss<sup>✶</sup>](https://scholar.google.com/citations?user=mKqte6AAAAAJ&hl=de), and [Bin Yu](https://www.stat.berkeley.edu/~yugroup/) (2025, preprint, submitted to NeurIPS)  
+
+
+1. [I. Azizi<sup>✶</sup>](https://iliaazizi.com/), J. Bodik<sup>✶</sup>, [J. Heiss<sup>✶</sup>](https://scholar.google.com/citations?user=mKqte6AAAAAJ&hl=de), and [B. Yu](https://www.stat.berkeley.edu/~yugroup/) (2025, preprint, submitted to ICLR)  
 <em><sup>✶</sup>Equal contribution</em>  
 [CLEAR: Calibrated Learning for Epistemic and Aleatoric Risk](https://arxiv.org/abs/2507.08150) <br>
 <button id="toggleButton8" class="custom-button">&#9654; **Abstract**: Accurate uncertainty quantification is critical for reliable...</button>
@@ -32,7 +42,7 @@ output:
 
 
 
-1.  J. Bodik and [O. Pasche](https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/)  (2024, preprint, submitted to JRSSb)
+1.  J. Bodik and [O. Pasche](https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/)  (2024, preprint, submitted to Bernoulli)
 <br>
 [Granger causality in extremes](https://arxiv.org/abs/2407.09632) <br>
 <button id="toggleButton7" class="custom-button">&#9654; **Abstract**: We introduce a rigorous mathematical framework for Granger causality...</button>
@@ -42,7 +52,7 @@ output:
 [[code]](https://github.com/jurobodik/Granger-causality-in-extremes)
 <br>
 
-1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2023, preprint, in review at JMLR)
+1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2023, preprint, 3rd round of review at JMLR)
 <br>
 [Identifiability of causal graphs under nonadditive conditionally parametric causal models](https://arxiv.org/abs/2303.15376)
 <br>
@@ -53,6 +63,8 @@ It has been shown that the causal graph is identifiable under different models, 
 </div>
 [[code]](https://github.com/jurobodik/Causal_CPCM)
 <be>
+<hr>
+
 1.  J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2025, Biometrika)
 <br>
 [Structural restrictions in local causal discovery: identifying direct causes of a target variable](https://arxiv.org/abs/2307.16048) 
@@ -84,18 +96,17 @@ It has been shown that the causal graph is identifiable under different models, 
 [[code]](https://github.com/jurobodik/Causality-in-extremes-of-time-series)
 <br>
 
-1. J. Bodik,  [L. Mhalla](https://lindamhalla.netlify.app/),  [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2022, preprint)
+1. J. Bodik,  [L. Mhalla](https://lindamhalla.netlify.app/),  [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2022 - project permanently on hold)
 <br>[Detecting causal covariates for extreme dependence structures](https://arxiv.org/abs/2212.09831) 
 <br>
 <button id="toggleButton3" class="custom-button">&#9654; **Abstract**: Determining the causes of extreme events is a fundamental question...</button>
 <div id="longText3" style="display: none;">
 **Abstract**:    Determining the causes of extreme events is a fundamental question in many scientific fields. An important aspect when modelling multivariate extremes is the tail dependence. In application, the extreme dependence structure may significantly depend on covariates. As for the general case of modelling including covariates, only some of the covariates are causal. In this paper, we propose a methodology to discover the causal covariates explaining the tail dependence structure between two variables. The proposed methodology for discovering causal variables is based on comparing observations from different environments or perturbations. It is a desired methodology for predicting extremal behaviour in a new, unobserved environment. The methodology is applied to a dataset of NO2 concentration in the UK. Extreme NO2 levels can cause severe health problems, and understanding the behaviour of concurrent severe levels is an important question. We focus on revealing causal predictors for the dependence between extreme NO2 observations at different sites.
 </div>
-[[code]](https://github.com/jurobodik/Detecting-causal-covariates-for-extreme-dependence-structures)
-<br>
 
 
-1. J. Bodik, [Z. Pawlas](http://www.karlin.mff.cuni.cz/~pawlas/), [M. Paluš](http://www.cs.cas.cz/mp/)  (2021, Master thesis, won a 10000KC prize in a competition for best master thesis)
+
+1. J. Bodik, [Z. Pawlas](http://www.karlin.mff.cuni.cz/~pawlas/), [M. Paluš](http://www.cs.cas.cz/mp/)  (2021, Master’s thesis; prize 10,000 Kč for best thesis)
 <br>[Detection of causality in time series using extreme values](https://dspace.cuni.cz/handle/20.500.11956/127250). 
 <br>
 <button id="toggleButton" class="custom-button">&#9654; **Abstract**: In this thesis we deal with the following problem: Let us...</button>
@@ -106,12 +117,15 @@ It has been shown that the causal graph is identifiable under different models, 
 
 <font size="12">Reviewing</font>
 <br>
-<a href="https://academic.oup.com/jrsssb">Journal of the Royal Statistical Society, Series B (JRSSB)</a>, 
+<a href="https://academic.oup.com/jrsssb">Journal of the Royal Statistical Society, Series B (JRSSb)</a>, 
 <a href="https://www.sciencedirect.com/journal/statistics-and-probability-letters">Statistics &amp; Probability Letters</a>, 
 <a href="https://www.springer.com/journal/41237">Behaviormetrika</a>, 
 <span class="muted"><a href="https://revstat.ine.pt/">REVSTAT - Statistical Journal</a></span>
 
+
 <font size="12">Selected conferences and talks</font>
+
+- [CHUV BDSC seminar](https://datascience.stanford.edu/datadrivenseminar) (*Invited speaker* at a Clinical Data Science Group seminar at CHUV University Hospital in **Lausanne**, Switzerland, 29.9.2025)
 
 - [Data driven seminar](https://datascience.stanford.edu/datadrivenseminar) (Speaker at a weekly Data driven seminar at  **Stanford**, California, 7.11.2024)
 
@@ -119,7 +133,7 @@ It has been shown that the causal graph is identifiable under different models, 
 
 - [Causal science center conference 2024](https://datascience.stanford.edu/causal/2024-causal-science-center-conference) (Presented + poster at  **Stanford**, California, 11.10.2024) 
 
-- [UAI2024](https://www.auai.org/uai2024/) (Invited speaker at [UAI2024 Workshop on Causal inference in time series](https://sites.google.com/view/ci4ts2024/invited-speakers?authuser=0) in  **Barcelona**, Spain, 15.7.2024-19.7.2024) 
+- [UAI2024](https://www.auai.org/uai2024/) (*Invited speaker* at [UAI2024 Workshop on Causal inference in time series](https://sites.google.com/view/ci4ts2024/invited-speakers?authuser=0) in  **Barcelona**, Spain, 15.7.2024-19.7.2024) 
 
 - [EGU24](https://meetingorganizer.copernicus.org/EGU24/session/50529&ip) (Poster in **Vienna**, Austria, 14.4.2024-19.4.2024) 
 
@@ -329,6 +343,5 @@ Keywords: Mathematical statistics; Causal inference; Statistical inference; Prob
     }
   });
 </script>
-
 
 

@@ -3,7 +3,9 @@ title: "Teaching"
 output: html_document
 ---
 
-I have worked as a teaching assistant at HEC Lausanne (UNIL), supporting several graduate-level courses across multiple semesters:
+I’ve been a lead TA across >10 master-level courses at HEC Lausanne, and I design hands-on projects for students. All materials are available to enrolled students (UNIL login required).
+
+-Fall 2025: Risk Analytics (All content now on Moodle page 'Risk Analytics 25-26')
 
 -Spring 2025: [Forecasting II](https://hecnet.unil.ch/indexMRN.php?QS=/syllabus/descriptif/2496)
 

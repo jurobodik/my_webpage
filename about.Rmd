@@ -18,7 +18,7 @@ output:
 <br>
 
 
-1.  J. Bodik (2025, preprint, submitted to ICLR)
+1.  Hidden authors (2025, preprint, submitted to ICLR)
 <br>
 [Counterfactual prediction under cross-world dependence](https://arxiv.org/abs/???) <br>
 <button id="toggleButton9" class="custom-button">&#9654; **Abstract**: We study the problem of estimating the expected counterfactual outcome for...</button>
@@ -343,5 +343,6 @@ Keywords: Mathematical statistics; Causal inference; Statistical inference; Prob
     }
   });
 </script>
+
 
 

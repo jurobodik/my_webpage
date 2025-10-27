@@ -51,8 +51,9 @@ output:
 </div>
 [[code]](https://github.com/jurobodik/Granger-causality-in-extremes)
 <br>
+<hr>
 
-1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2023, preprint, 3rd round of review at JMLR)
+1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2025, Journal of Machine Learning Research (accepted with minor revisions))
 <br>
 [Identifiability of causal graphs under nonadditive conditionally parametric causal models](https://arxiv.org/abs/2303.15376)
 <br>
@@ -63,7 +64,6 @@ It has been shown that the causal graph is identifiable under different models, 
 </div>
 [[code]](https://github.com/jurobodik/Causal_CPCM)
 <be>
-<hr>
 
 1.  J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2025, Biometrika)
 <br>
@@ -343,6 +343,7 @@ Keywords: Mathematical statistics; Causal inference; Statistical inference; Prob
     }
   });
 </script>
+
 
 
 

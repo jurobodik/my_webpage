@@ -53,7 +53,7 @@ output:
 <br>
 <hr>
 
-1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2025, Journal of Machine Learning Research (accepted with minor revisions))
+1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2025, Journal of Machine Learning Research (conditionally accepted))
 <br>
 [Identifiability of causal graphs under nonadditive conditionally parametric causal models](https://arxiv.org/abs/2303.15376)
 <br>
@@ -343,6 +343,7 @@ Keywords: Mathematical statistics; Causal inference; Statistical inference; Prob
     }
   });
 </script>
+
 
 
 

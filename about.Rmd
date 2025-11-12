@@ -18,9 +18,9 @@ output:
 <br>
 
 
-1. J. Bodik (2025, preprint, submitted to ICLR)
+1.  J. Bodik (2025, preprint, submitted to ICLR)
 <br>
-[Counterfactual prediction under cross-world dependence](https://openreview.net/forum?id=wYYOdt3f3L) <br>
+[Counterfactual prediction under cross-world dependence](Counterfactual_paper.pdf) <br>
 <button id="toggleButton9" class="custom-button">&#9654; **Abstract**: We study the problem of estimating the expected counterfactual outcome for...</button>
 <div id="longText9" style="display: none;">
 **Abstract**: We study the problem of estimating the expected counterfactual outcome for an individual with covariates $x$ and observed outcome $y$, defined as   $\mu(x,y) = \mathbb{E}[Y(1) \mid X = x, Y(0) = y]$, and constructing valid prediction intervals under the Neyman–Rubin superpopulation model with i.i.d. units. This quantity is generally unidentified without additional assumptions. To link the observed and unobserved potential outcomes, we work with a cross-world correlation function $\rho(x) = \operatorname{cor}(Y(1), Y(0) \mid X = x)$ that quantifies their dependence given the covariates. Plausible bounds on $\rho(x)$, often informed by domain knowledge, enable a principled approach to this otherwise unidentified problem. Given $\rho$, we develop a consistent estimator $\hat{\mu}_{\rho}(x,y)$ and prediction intervals $C_{\rho}(x,y)$ that satisfy $P[Y(1) \in C_{\rho}(X,Y(0))] \geq 1 - \alpha$ under standard causal assumptions. Almost all existing methods correspond to either the case $\rho = 0$ (ignoring the factual outcome), or $\rho = 1$ (constant treatment effects). We show that interpolating between these cases via cross-world dependence yields estimators that are theoretically optimal under (asymptotic) Gaussian assumptions. In practice, this leads to substantial empirical improvements across a wide range of scenarios.
@@ -343,10 +343,5 @@ Keywords: Mathematical statistics; Causal inference; Statistical inference; Prob
     }
   });
 </script>
-
-
-
-
-
 
 

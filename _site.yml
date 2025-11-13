@@ -4,8 +4,10 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Publications and research"
+    - text: "Publications"
       href: about.html
     - text: "Teaching"
-      href: teaching.html    
+      href: teaching.html
+    - text: "CV"
+      href: CV_october.pdf
 output_dir: docs

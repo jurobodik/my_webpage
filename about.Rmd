@@ -118,9 +118,11 @@ It has been shown that the causal graph is identifiable under different models, 
 <font size="12">Reviewing</font>
 <br>
 <a href="https://academic.oup.com/jrsssb">Journal of the Royal Statistical Society, Series B (JRSSb)</a>, 
-<a href="https://www.sciencedirect.com/journal/statistics-and-probability-letters">Statistics &amp; Probability Letters</a>, 
+<a href="https://www.sciencedirect.com/journal/statistics-and-probability-letters">Statistics & Probability Letters</a>, 
 <a href="https://www.springer.com/journal/41237">Behaviormetrika</a>, 
-<span class="muted"><a href="https://revstat.ine.pt/">REVSTAT - Statistical Journal</a></span>
+<span class="muted"><a href="https://revstat.ine.pt/">REVSTAT - Statistical Journal</a></span>, 
+<a href="https://www.springer.com/journal/10618">Data Mining and Knowledge Discovery</a>
+
 
 
 <font size="12">Selected conferences and talks</font>
@@ -343,6 +345,7 @@ Keywords: Mathematical statistics; Causal inference; Statistical inference; Prob
     }
   });
 </script>
+
 
 
 

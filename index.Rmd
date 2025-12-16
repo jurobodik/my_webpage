@@ -36,12 +36,13 @@ I was born in Slovakia and did my bachelor's and master's in pure mathematics at
 
 
 # Latest news
+- Until the end of January, I am on a research visit at Osaka University in Japan, hosted by [Shohei Shimizu](https://www.shimizulab.org/lab). If you have recommendations for Japan or would like to meet up while I’m there, feel free to reach out!
 - (Nov 2025) Our [paper](https://arxiv.org/abs/2303.15376) was accepted in [Journal of Machine Learning Research](https://arxiv.org/abs/2303.15376), a leading journal in modern data science!
 - (Jun 2025) Our [paper](https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaf042/8157876) was recently published in [Biometrika](https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaf042/8157876), the oldest  journal in statistics!
-- In <del>August and September</del> December and January, I will be on a research visit at Osaka University in Japan, hosted by [Shohei Shimizu](https://www.shimizulab.org/lab). If you have recommendations for Japan or would like to meet up while I’m there, feel free to reach out!
 - (Feb 2025) I injured my lower back in an ultimate frisbee + bike accident, so I may be unable to travel for up to a year. I’m very happy to collaborate remotely in the meantime!
 
-<small>Last page update: 22 Nov 2025.</small>
+<small>Last page update: 10 Dec 2025.</small>
+
 
 
 

@@ -7,7 +7,7 @@ output:
 
 <font size="12">Publications and Preprints</font>
 
-1.  J. Bodik, [Y. Huang](https://imyaxuan.github.io/) and [B. Yu](https://www.stat.berkeley.edu/~yugroup/)  (2025, preprint, submitted to JRSSb)
+1.  J. Bodik, [Y. Huang](https://imyaxuan.github.io/) and [B. Yu](https://www.stat.berkeley.edu/~yugroup/)  (2025, preprint, **submitted to JRSSb**)
 <br>
 [Cross-World Assumption and Refining Prediction Intervals for Individual Treatment Effects](https://arxiv.org/abs/2507.12581) <br>
 <button id="toggleButton9" class="custom-button">&#9654; **Abstract**: While average treatment effects (ATE) and conditional average...</button>
@@ -18,7 +18,7 @@ output:
 <br>
 
 
-1.  J. Bodik (2025, preprint, submitted to ICLR)
+1.  J. Bodik (2025, preprint, **submitted to CleaR**)
 <br>
 [Counterfactual prediction under cross-world dependence](Counterfactual_paper.pdf) <br>
 <button id="toggleButton9" class="custom-button">&#9654; **Abstract**: We study the problem of estimating the expected counterfactual outcome for...</button>
@@ -30,7 +30,7 @@ output:
 
 
 
-1. [I. Azizi<sup>✶</sup>](https://iliaazizi.com/), J. Bodik<sup>✶</sup>, [J. Heiss<sup>✶</sup>](https://scholar.google.com/citations?user=mKqte6AAAAAJ&hl=de), and [B. Yu](https://www.stat.berkeley.edu/~yugroup/) (2025, preprint, submitted to ICLR)  
+1. [I. Azizi<sup>✶</sup>](https://iliaazizi.com/), J. Bodik<sup>✶</sup>, [J. Heiss<sup>✶</sup>](https://scholar.google.com/citations?user=mKqte6AAAAAJ&hl=de), and [B. Yu](https://www.stat.berkeley.edu/~yugroup/) (2025, preprint, **submitted to ICLR**)  
 <em><sup>✶</sup>Equal contribution</em>  
 [CLEAR: Calibrated Learning for Epistemic and Aleatoric Risk](https://arxiv.org/abs/2507.08150) <br>
 <button id="toggleButton8" class="custom-button">&#9654; **Abstract**: Accurate uncertainty quantification is critical for reliable...</button>
@@ -42,7 +42,7 @@ output:
 
 
 
-1.  J. Bodik and [O. Pasche](https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/)  (2024, preprint, submitted to Bernoulli)
+1.  J. Bodik and [O. Pasche](https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/)  (2024, preprint, **submitted to Bernoulli**)
 <br>
 [Granger causality in extremes](https://arxiv.org/abs/2407.09632) <br>
 <button id="toggleButton7" class="custom-button">&#9654; **Abstract**: We introduce a rigorous mathematical framework for Granger causality...</button>
@@ -53,9 +53,9 @@ output:
 <br>
 <hr>
 
-1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2025, Journal of Machine Learning Research (to appear))
+1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2025, **Journal of Machine Learning Research**)
 <br>
-[Identifiability of causal graphs under nonadditive conditionally parametric causal models](https://arxiv.org/abs/2303.15376)
+[Identifiability of causal graphs under nonadditive conditionally parametric causal models](https://jmlr.org/papers/v26/24-1662.html)
 <br>
 <button id="toggleButton4" class="custom-button">&#9654; **Abstract**: Causal discovery from observational data is a very challenging, often impossible...</button>
 <div id="longText4" style="display: none;">
@@ -65,9 +65,9 @@ It has been shown that the causal graph is identifiable under different models, 
 [[code]](https://github.com/jurobodik/Causal_CPCM)
 <be>
 
-1.  J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2025, Biometrika)
+1.  J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/)  (2025, **Biometrika**)
 <br>
-[Structural restrictions in local causal discovery: identifying direct causes of a target variable](https://arxiv.org/abs/2307.16048) 
+[Structural restrictions in local causal discovery: identifying direct causes of a target variable](https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaf042/8157876) 
 <button id="toggleButton5" class="custom-button">&#9654; **Abstract**: We consider the problem of learning a set of direct causes of a target...</button>
 <div id="longText5" style="display: none;">
 **Abstract**: We consider the problem of learning a set of direct causes of a target variable from an observational joint distribution. Learning directed acyclic graphs (DAGs) that represent the causal structure is a fundamental problem in science. Several results are known when the full DAG is identifiable from the distribution, such as assuming a nonlinear Gaussian data-generating process. Often, we are only interested in identifying the direct causes of one target variable (local causal structure), not the full DAG. In this paper, we discuss different assumptions for the data-generating process of the target variable under which the set of direct causes is identifiable from the distribution. While doing so, we put essentially no assumptions on the variables other than the target variable. In addition to the novel identifiability results, we provide two practical algorithms for estimating the direct causes from a finite random sample and show their effectiveness on several benchmark data-sets. We apply this framework to learn direct causes of the reduction in the fertility rate in different countries.  
@@ -76,7 +76,7 @@ It has been shown that the causal graph is identifiable under different models, 
 <br>
 
 
-1.  J. Bodik  (2024, Mathematics)
+1.  J. Bodik  (2024, **Mathematics**)
 <br>
 [Extreme Treatment Effect: Extrapolating Causal Effects Into Extreme Treatment Domain](https://www.mdpi.com/2227-7390/12/10/1556) 
 <button id="toggleButton6" class="custom-button">&#9654; **Abstract**: The potential outcomes framework serves as a fundamental...</button>
@@ -86,7 +86,7 @@ It has been shown that the causal graph is identifiable under different models, 
 [[code]](https://github.com/jurobodik/Extreme_treatment_effect)
 <br>
 
-1. J. Bodik, [Z. Pawlas](http://www.karlin.mff.cuni.cz/~pawlas/), [M. Paluš](http://www.cs.cas.cz/mp/) (2024, Extremes)
+1. J. Bodik, [Z. Pawlas](http://www.karlin.mff.cuni.cz/~pawlas/), [M. Paluš](http://www.cs.cas.cz/mp/) (2024, **Extremes**)
 <br>[Causality in extremes of time series](https://link.springer.com/article/10.1007/s10687-023-00479-5). 
 <br>
 <button id="toggleButton2" class="custom-button">&#9654; **Abstract**: Consider two stationary time series with heavy-tailed marginal...</button>
@@ -124,40 +124,32 @@ It has been shown that the causal graph is identifiable under different models, 
 <a href="https://www.springer.com/journal/10618">Data Mining and Knowledge Discovery</a>
 
 
-
 <font size="12">Selected conferences and talks</font>
 
-- [Data science lab seminar](https://www.shimizulab.org/lab) (*Invited speaker* at a Data science lab at University of Osaka in **Osaka**, Japan, 16.12.2025)
+## Invited talks
+- [Online Causal Inference Seminar](https://sites.google.com/view/ocis/home) (The largest international seminar on causal inference, **Online**, 3.2.2026)
 
-- [CHUV BDSC seminar](https://datascience.stanford.edu/datadrivenseminar) (*Invited speaker* at a Clinical Data Science Group seminar at CHUV University Hospital in **Lausanne**, Switzerland, 29.9.2025)
+- [SANKEN+RIKEN Data science seminar](https://www.shimizulab.org/lab) (Seminar on causality between SANKEN and RIKEN organisations, University of Osaka, **Osaka**, Japan, 26.12.2025)
 
-- [Data driven seminar](https://datascience.stanford.edu/datadrivenseminar) (Speaker at a weekly Data driven seminar at  **Stanford**, California, 7.11.2024)
+- [CHUV BDSC seminar](https://datascience.stanford.edu/datadrivenseminar) (Clinical Data Science Group seminar at CHUV, **Lausanne**, Switzerland, 29.9.2025)
 
-- [Casual causal seminar, PhD students seminar and Bin Yu group seminar](https://causal.stat.berkeley.edu/) (Speaker at a weekly seminars in  **UC Berkeley**, California, autumn 2024)
+- [UAI 2024](https://www.auai.org/uai2024/) (Workshop on [Causal Inference in Time Series](https://sites.google.com/view/ci4ts2024/invited-speakers?authuser=0), **Barcelona**, Spain, 15.7.2024–19.7.2024)
 
-- [Causal science center conference 2024](https://datascience.stanford.edu/causal/2024-causal-science-center-conference) (Presented + poster at  **Stanford**, California, 11.10.2024) 
-
-- [UAI2024](https://www.auai.org/uai2024/) (*Invited speaker* at [UAI2024 Workshop on Causal inference in time series](https://sites.google.com/view/ci4ts2024/invited-speakers?authuser=0) in  **Barcelona**, Spain, 15.7.2024-19.7.2024) 
-
-- [EGU24](https://meetingorganizer.copernicus.org/EGU24/session/50529&ip) (Poster in **Vienna**, Austria, 14.4.2024-19.4.2024) 
-
-- [Causality in extremes workshop](https://sites.google.com/view/causality-extremes/main) (Poster at UNIGE **Geneva**, Switzerland, 12.2.2024-14.2.2024) 
-
-- [CMStatistics](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2023/viewSubmission.php?in=1622&token=5n52944n1q1s4ors43p00q01637511s5) (Presented at HTW **Berlin**, Germany, 15.12.2023-19.12.2023) 
-
-- [EUROCIM: European causal inference meeting](https://www.eurocim.org/) (Presented in University of **Oslo**, Norway, 18.4.2023-22.4.2023) 
-
-- [CUSO: statistics and applied probability](https://statistique.cuso.ch/historique-des-ecoles) (Participant in  **Les Diablerets**, Switzerland, 5.2.2023-8.2.2023, 4.9.2022-7.9.2022, 6.2.2022-9.2.2022, 12.9.2021-15.9.2021) 
-
-- [BIRS: Combining Causal Inference and Extreme Value Theory in the Study of Climate Extremes and their Causes ](http://www.birs.ca/events/2022/5-day-workshops/22w5079) (Presented via Zoom, **Kelowna**, Canada,  26.6.2022-1.7.2022) 
-
-- [Robust](https://www.czso.cz/documents/10180/167607761/32019722q4_471-472_vozar_information.pdf/82abef69-b6ca-4fdd-aa21-0201f139b8a2?version=1.1) (Presented in **Prague**, Czech republic, 12.6.2022-17.6.2022) 
-
-- [CMStatistics](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2021/viewSubmission.php?in=251&token=p12r7623o22q1oo2p4qrnq17n2s36r1o) (Presented via Zoom, **London**, UK, 18.12.2021 - 20.12.2021)
-
-- [Valpred workshop](http://wintenberger.fr/VALPRED) (Presented in **Aussois**, France, 4.10.2021-7.10.2021) 
-
-- [EVA: Extreme value analysys](https://www.maths.ed.ac.uk/school-of-mathematics/eva-2021) (Presented via Zoom, **Edinburgh**, UK,  5.6.2021-9.6.2021) 
+## Other conferences and talks
+- [SANKEN seminar](https://www.shimizulab.org/lab) (Data science lab at University of Osaka, **Osaka**, Japan, 16.12.2025)
+- [Data Driven seminar](https://datascience.stanford.edu/datadrivenseminar) (Weekly research discussion seminar around data-driven decisions and inference, **Stanford**, California, 7.11.2024)
+- [Causal Seminar, PhD Students Seminar, and Bin Yu Group Seminar](https://causal.stat.berkeley.edu/) (Speaker, **UC Berkeley**, California, autumn 2024)
+- [Causal Science Center Conference 2024](https://datascience.stanford.edu/causal/2024-causal-science-center-conference) (Presented + poster, **Stanford**, California, 11.10.2024)
+- [EGU24](https://meetingorganizer.copernicus.org/EGU24/session/50529&ip) (Poster, **Vienna**, Austria, 14.4.2024–19.4.2024)
+- [Causality in Extremes workshop](https://sites.google.com/view/causality-extremes/main) (Poster, **Geneva**, Switzerland, 12.2.2024–14.2.2024)
+- [CMStatistics 2023](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2023/viewSubmission.php?in=1622&token=5n52944n1q1s4ors43p00q01637511s5) (Presented, HTW **Berlin**, Germany, 15.12.2023–19.12.2023)
+- [EUROCIM: European Causal Inference Meeting](https://www.eurocim.org/) (Presented, University of **Oslo**, Norway, 18.4.2023–22.4.2023)
+- [CUSO: Statistics and Applied Probability](https://statistique.cuso.ch/historique-des-ecoles) (Participant, **Les Diablerets**, Switzerland: 5.2.2023–8.2.2023; 4.9.2022–7.9.2022; 6.2.2022–9.2.2022; 12.9.2021–15.9.2021)
+- [BIRS: Combining Causal Inference and Extreme Value Theory in the Study of Climate Extremes and their Causes](http://www.birs.ca/events/2022/5-day-workshops/22w5079) (Presented, Zoom / **Kelowna**, Canada, 26.6.2022–1.7.2022)
+- [ROBUST](https://www.czso.cz/documents/10180/167607761/32019722q4_471-472_vozar_information.pdf/82abef69-b6ca-4fdd-aa21-0201f139b8a2?version=1.1) (Presented, **Prague**, Czech Republic, 12.6.2022–17.6.2022)
+- [CMStatistics 2021](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2021/viewSubmission.php?in=251&token=p12r7623o22q1oo2p4qrnq17n2s36r1o) (Presented, Zoom / **London**, UK, 18.12.2021–20.12.2021)
+- [VALPRED workshop](http://wintenberger.fr/VALPRED) (Presented, **Aussois**, France, 4.10.2021–7.10.2021)
+- [EVA: Extreme Value Analysis](https://www.maths.ed.ac.uk/school-of-mathematics/eva-2021) (Presented, Zoom / **Edinburgh**, UK, 5.6.2021–9.6.2021)
 
 
 
@@ -347,7 +339,6 @@ Keywords: Mathematical statistics; Causal inference; Statistical inference; Prob
     }
   });
 </script>
-
 
 
 

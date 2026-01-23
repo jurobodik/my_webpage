@@ -21,30 +21,21 @@ output:
   </div>
   <div class="col-md-9">
 
-My nickname is Juro (pronounced like the money '€'), and I am a Ph.D. student under the supervision of [Prof. Valérie Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) at the [University of Lausanne](https://www.unil.ch/hec/en/home.html), Switzerland. I have been fortunate to collaborate with researchers across several institutions, including [prof. Bin Yu](https://www.stat.berkeley.edu/~yugroup/index.html)
- at UC Berkeley where I spent half a year as a visiting researcher in 2024, colleagues at Stanford or collaborators at the University of Geneva.
+My nickname is Juro (pronounced like '€'), and I am a Ph.D. student supervised by [Prof. Valérie Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) at the [University of Lausanne](https://www.unil.ch/hec/en/home.html) in Switzerland. I have been fortunate to collaborate with researchers across several institutions, including [Prof. Bin Yu](https://www.stat.berkeley.edu/~yugroup/index.html) at UC Berkeley, where I spent six months as a visiting researcher in 2024, and [Prof. Shohei Shimizu](https://sites.google.com/view/sshimizu06/ss?authuser=0) at Osaka University, where I visited for a couple of months in 2025–26. I have also collaborated with colleagues at Stanford and the University of Geneva.
 
+My research is rooted in mathematical statistics, with a focus on [causal inference](https://thedecisionlab.com/reference-guide/statistics/casual-inference) and its connections to probability theory and machine learning. I study how to reason about quantities that cannot be directly observed: counterfactuals, extreme events, and the hidden mechanisms connecting them. My current work centers on the identifiability of causal relations from observational data and the development of methods for causal discovery, where the goal is to uncover the underlying causal structure directly from data. I also connect causal inference with topics such as [uncertainty quantification](https://en.wikipedia.org/wiki/Uncertainty_quantification), [extreme value theory](https://en.wikipedia.org/wiki/Extreme_value_theory), and [time series analysis](https://en.wikipedia.org/wiki/Granger_causality).
 
-My research is rooted in mathematical statistics, with a focus on [causal inference](https://thedecisionlab.com/reference-guide/statistics/casual-inference) and its connections to probability theory and machine learning. I study how to reason about quantities that cannot be directly observed—counterfactuals, extreme events, and the hidden mechanisms connecting them. My current work centers on the identifiability of causal relations from observational data and the development of methods for causal discovery, where the goal is to uncover the underlying causal structure directly from data. I also connect causal inference with topics such as [uncertainty quantification](https://en.wikipedia.org/wiki/Uncertainty_quantification), [extreme value theory](https://en.wikipedia.org/wiki/Extreme_value_theory), and [time series analysis](https://en.wikipedia.org/wiki/Granger_causality).
-
-
-I was born in Slovakia and did my bachelor's and master's in pure mathematics at [Charles University](https://www.mff.cuni.cz/en) in Prague, Czech Republic. During this period, I competed and organized several international problem-solving [competitions](https://www.imc-math.org.uk/?year=2020&item=info) in mathematics. Back in Slovakia, I represented the [Slovak national team in the world championship in ultimate frisbee](https://wjuc2016.ultimatecentral.com/e/wfdf-2016-world-junior-ultimate-championships).
-
+I was born in Slovakia and completed my bachelor’s and master’s degrees in pure mathematics at [Charles University](https://www.mff.cuni.cz/en) in Prague, Czech Republic. During this period, I competed in and helped organize several international mathematical problem-solving [competitions](https://www.imc-math.org.uk/?year=2020&item=info). Back in Slovakia, I represented the [Slovak national team in the world championship in ultimate frisbee](https://wjuc2016.ultimatecentral.com/e/wfdf-2016-world-junior-ultimate-championships).
 
   </div>
 </div>
 
-
 # Latest news
-- Until the end of January, I am on a research visit at Osaka University in Japan, hosted by [Shohei Shimizu](https://www.shimizulab.org/lab). If you have recommendations for Japan or would like to meet up while I’m there, feel free to reach out!
-- (Nov 2025) Our [paper](https://arxiv.org/abs/2303.15376) was accepted in [Journal of Machine Learning Research](https://arxiv.org/abs/2303.15376), a leading journal in modern data science!
-- (Jun 2025) Our [paper](https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaf042/8157876) was recently published in [Biometrika](https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaf042/8157876), the oldest  journal in statistics!
-- (Feb 2025) I injured my lower back in an ultimate frisbee + bike accident, so I may be unable to travel for up to a year. I’m very happy to collaborate remotely in the meantime!
+- I am planning on attending the [Causal identification and discovery workshop](https://www.newton.ac.uk/event/cifw02/) at the Newton Institute in Cambridge, UK, in 2-6 March 2026.
+- I will give a talk at the [Online Causal Inference Seminar](https://sites.google.com/view/ocis/home) on 3 Feb 2026 at 17:30 swiss time. All are welcome to join the [Zoom](https://sites.google.com/view/ocis/home)!
+- (Jan 2026) I returned to Switzerland after 2 months from my research visit at Osaka University in Japan. My back injury is improving.
+- (Nov 2025) Our [paper](https://jmlr.org/papers/v26/24-1662.html) was accepted in the *Journal of Machine Learning Research*, a leading journal in modern data science!
+- (Jun 2025) Our [paper](https://academic.oup.com/biomet/advance-article/doi/10.1093/biomet/asaf042/8157876) was published in *Biometrika*, the oldest journal in statistics!
+- (Feb 2025) I injured my lower back in an ultimate frisbee + bike accident, so I may be unable to travel for up to a year. I’m happy to collaborate remotely in the meantime.
 
-<small>Last page update: 10 Dec 2025.</small>
-
-
-
-
-
-
+<small>Last page update: 23 Jan 2026.</small>

@@ -29,19 +29,6 @@ output:
 <br>
 
 
-
-1. [I. Azizi<sup>✶</sup>](https://iliaazizi.com/), J. Bodik<sup>✶</sup>, [J. Heiss<sup>✶</sup>](https://scholar.google.com/citations?user=mKqte6AAAAAJ&hl=de), and [B. Yu](https://www.stat.berkeley.edu/~yugroup/) (2025, preprint, **submitted to ICLR**)  
-<em><sup>✶</sup>Equal contribution</em>  
-[CLEAR: Calibrated Learning for Epistemic and Aleatoric Risk](https://arxiv.org/abs/2507.08150) <br>
-<button id="toggleButton8" class="custom-button">&#9654; **Abstract**: Accurate uncertainty quantification is critical for reliable...</button>
-<div id="longText8" style="display: none;">
-**Abstract**: Accurate uncertainty quantification is critical for reliable predictive modeling, especially in regression tasks. Existing methods typically address either aleatoric uncertainty from measurement noise or epistemic uncertainty from limited data, but not necessarily both in a balanced way. We propose CLEAR, a calibration method with two distinct parameters,  and , to combine the two uncertainty components for improved conditional coverage. CLEAR is compatible with any pair of aleatoric and epistemic estimators; we show how it can be used with (i) quantile regression for aleatoric uncertainty and (ii) ensembles drawn from the Predictability-Computability-Stability (PCS) framework for epistemic uncertainty. Across 17 diverse real-world datasets, CLEAR achieves an average improvement of 28.2% and 17.4% in the interval width compared to the two individually calibrated baselines while maintaining nominal coverage. This improvement can be particularly evident in scenarios dominated by either high epistemic or high aleatoric uncertainty.
-</div>
-[[code]](https://github.com/Unco3892/clear)
-
-
-
-
 1.  J. Bodik and [O. Pasche](https://www.unige.ch/gsem/en/research/institutes/risis/team/phd/olivier-pasche/)  (2024, preprint, **submitted to Bernoulli**)
 <br>
 [Granger causality in extremes](https://arxiv.org/abs/2407.09632) <br>
@@ -52,6 +39,16 @@ output:
 [[code]](https://github.com/jurobodik/Granger-causality-in-extremes)
 <br>
 <hr>
+
+
+1. [I. Azizi<sup>✶</sup>](https://iliaazizi.com/), J. Bodik<sup>✶</sup>, [J. Heiss<sup>✶</sup>](https://scholar.google.com/citations?user=mKqte6AAAAAJ&hl=de), and [B. Yu](https://www.stat.berkeley.edu/~yugroup/) (2026, **ICLR**)  
+<em><sup>✶</sup>Equal contribution</em>  
+[CLEAR: Calibrated Learning for Epistemic and Aleatoric Risk](https://arxiv.org/abs/2507.08150) <br>
+<button id="toggleButton8" class="custom-button">&#9654; **Abstract**: Accurate uncertainty quantification is critical for reliable...</button>
+<div id="longText8" style="display: none;">
+**Abstract**: Accurate uncertainty quantification is critical for reliable predictive modeling, especially in regression tasks. Existing methods typically address either aleatoric uncertainty from measurement noise or epistemic uncertainty from limited data, but not necessarily both in a balanced way. We propose CLEAR, a calibration method with two distinct parameters,  and , to combine the two uncertainty components for improved conditional coverage. CLEAR is compatible with any pair of aleatoric and epistemic estimators; we show how it can be used with (i) quantile regression for aleatoric uncertainty and (ii) ensembles drawn from the Predictability-Computability-Stability (PCS) framework for epistemic uncertainty. Across 17 diverse real-world datasets, CLEAR achieves an average improvement of 28.2% and 17.4% in the interval width compared to the two individually calibrated baselines while maintaining nominal coverage. This improvement can be particularly evident in scenarios dominated by either high epistemic or high aleatoric uncertainty.
+</div>
+[[code]](https://github.com/Unco3892/clear)
 
 1. J. Bodik and [V. Chavez-Demoulin](https://wp.unil.ch/hecimpact/people/valerie-chavez-demoulin/) (2025, **Journal of Machine Learning Research**)
 <br>
@@ -128,28 +125,27 @@ It has been shown that the causal graph is identifiable under different models, 
 
 ## Invited talks
 - [Online Causal Inference Seminar](https://sites.google.com/view/ocis/home) (The largest international seminar on causal inference, **Online**, 3.2.2026)
-
 - [SANKEN+RIKEN Data science seminar](https://www.shimizulab.org/lab) (Seminar on causality between SANKEN and RIKEN organisations, University of Osaka, **Osaka**, Japan, 26.12.2025)
-
 - [CHUV BDSC seminar](https://datascience.stanford.edu/datadrivenseminar) (Clinical Data Science Group seminar at CHUV, **Lausanne**, Switzerland, 29.9.2025)
-
 - [UAI 2024](https://www.auai.org/uai2024/) (Workshop on [Causal Inference in Time Series](https://sites.google.com/view/ci4ts2024/invited-speakers?authuser=0), **Barcelona**, Spain, 15.7.2024–19.7.2024)
 
-## Other conferences and talks
-- [SANKEN seminar](https://www.shimizulab.org/lab) (Data science lab at University of Osaka, **Osaka**, Japan, 16.12.2025)
-- [Data Driven seminar](https://datascience.stanford.edu/datadrivenseminar) (Weekly research discussion seminar around data-driven decisions and inference, **Stanford**, California, 7.11.2024)
-- [Causal Seminar, PhD Students Seminar, and Bin Yu Group Seminar](https://causal.stat.berkeley.edu/) (Speaker, **UC Berkeley**, California, autumn 2024)
-- [Causal Science Center Conference 2024](https://datascience.stanford.edu/causal/2024-causal-science-center-conference) (Presented + poster, **Stanford**, California, 11.10.2024)
+## Talks and conferences
+- [SANKEN seminar](https://www.shimizulab.org/lab) (Speaker at Data science lab at University of Osaka, **Osaka**, Japan, 16.12.2025)
+- [Data Driven seminar](https://datascience.stanford.edu/datadrivenseminar) (Speaker at Weekly research discussion seminar around data-driven decisions and inference at **Stanford**, California, 7.11.2024)
+- [Casual Causal Seminar, PhD Students Seminar, and Bin Yu Group Seminar](https://causal.stat.berkeley.edu/) (Speaker at various seminars at **UC Berkeley**, California, autumn 2024)
+- [Causal Science Center Conference 2024](https://datascience.stanford.edu/causal/2024-causal-science-center-conference) (Presentation + poster at **Stanford**, California, 11.10.2024)
+- [CMStatistics 2023](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2023/viewSubmission.php?in=1622&token=5n52944n1q1s4ors43p00q01637511s5) (Presentation at HTW **Berlin**, Germany, 15.12.2023–19.12.2023)
+- [EUROCIM: European Causal Inference Meeting](https://www.eurocim.org/) (Presentation at University of **Oslo**, Norway, 18.4.2023–22.4.2023)
+- [ROBUST](https://www.czso.cz/documents/10180/167607761/32019722q4_471-472_vozar_information.pdf/82abef69-b6ca-4fdd-aa21-0201f139b8a2?version=1.1) (Presentation at **Prague**, Czech Republic, 12.6.2022–17.6.2022)
+- [CMStatistics 2021](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2021/viewSubmission.php?in=251&token=p12r7623o22q1oo2p4qrnq17n2s36r1o) (Presentation via Zoom / **London**, UK, 18.12.2021–20.12.2021)
+- [VALPRED workshop](http://wintenberger.fr/VALPRED) (Presentation at **Aussois**, France, 4.10.2021–7.10.2021)
+- [EVA: Extreme Value Analysis](https://www.maths.ed.ac.uk/school-of-mathematics/eva-2021) (Presentation via Zoom / **Edinburgh**, UK, 5.6.2021–9.6.2021)
+- [BIRS: Combining Causal Inference and Extreme Value Theory in the Study of Climate Extremes and their Causes](http://www.birs.ca/events/2022/5-day-workshops/22w5079) (Presented via Zoom / **Kelowna**, Canada, 26.6.2022–1.7.2022)
+
+
+## Posters at conferences and workshops
 - [EGU24](https://meetingorganizer.copernicus.org/EGU24/session/50529&ip) (Poster, **Vienna**, Austria, 14.4.2024–19.4.2024)
 - [Causality in Extremes workshop](https://sites.google.com/view/causality-extremes/main) (Poster, **Geneva**, Switzerland, 12.2.2024–14.2.2024)
-- [CMStatistics 2023](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2023/viewSubmission.php?in=1622&token=5n52944n1q1s4ors43p00q01637511s5) (Presented, HTW **Berlin**, Germany, 15.12.2023–19.12.2023)
-- [EUROCIM: European Causal Inference Meeting](https://www.eurocim.org/) (Presented, University of **Oslo**, Norway, 18.4.2023–22.4.2023)
-- [CUSO: Statistics and Applied Probability](https://statistique.cuso.ch/historique-des-ecoles) (Participant, **Les Diablerets**, Switzerland: 5.2.2023–8.2.2023; 4.9.2022–7.9.2022; 6.2.2022–9.2.2022; 12.9.2021–15.9.2021)
-- [BIRS: Combining Causal Inference and Extreme Value Theory in the Study of Climate Extremes and their Causes](http://www.birs.ca/events/2022/5-day-workshops/22w5079) (Presented, Zoom / **Kelowna**, Canada, 26.6.2022–1.7.2022)
-- [ROBUST](https://www.czso.cz/documents/10180/167607761/32019722q4_471-472_vozar_information.pdf/82abef69-b6ca-4fdd-aa21-0201f139b8a2?version=1.1) (Presented, **Prague**, Czech Republic, 12.6.2022–17.6.2022)
-- [CMStatistics 2021](http://www.cmstatistics.org/RegistrationsV2/CMStatistics2021/viewSubmission.php?in=251&token=p12r7623o22q1oo2p4qrnq17n2s36r1o) (Presented, Zoom / **London**, UK, 18.12.2021–20.12.2021)
-- [VALPRED workshop](http://wintenberger.fr/VALPRED) (Presented, **Aussois**, France, 4.10.2021–7.10.2021)
-- [EVA: Extreme Value Analysis](https://www.maths.ed.ac.uk/school-of-mathematics/eva-2021) (Presented, Zoom / **Edinburgh**, UK, 5.6.2021–9.6.2021)
 
 
 
